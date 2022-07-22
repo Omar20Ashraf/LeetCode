@@ -7,7 +7,7 @@ class Solution
      * @param String $magazine
      * @return Boolean
      */
-    static function canConstruct($ransomNote, $magazine)
+    function canConstruct($ransomNote, $magazine)
     {
         $ransomNoteChars = array_count_values(str_split($ransomNote));
         $magazineChars = array_count_values(str_split($magazine));
