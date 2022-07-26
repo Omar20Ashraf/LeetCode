@@ -1,7 +1,7 @@
 <?php
 
 
-/* Find Numbers with Even Number of Digits.php */
+/* find_numbers_with_even_number_of_digits.php */
 
 class Solution
 {

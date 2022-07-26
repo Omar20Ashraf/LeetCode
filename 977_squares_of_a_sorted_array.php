@@ -1,6 +1,6 @@
 <?php
 
-/*  Squares of a Sorted Array */
+/*  977_squares_of_a_sorted_array */
 
 class Solution {
     /**
