@@ -9,7 +9,7 @@ class Solution
      * @param Integer[][] $accounts
      * @return Integer
      */
-    static function maximumWealth($accounts)
+    function maximumWealth($accounts)
     {
         $sum = [];
 
@@ -20,5 +20,3 @@ class Solution
         return max($sum);
     }
 }
-
-echo Solution::maximumWealth([[2, 8, 7], [7, 1, 3], [1, 9, 5]]);
