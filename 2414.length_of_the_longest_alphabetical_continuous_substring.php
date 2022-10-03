@@ -9,7 +9,7 @@ class Solution
      * @param String $s
      * @return Integer
      */
-    static function longestContinuousSubstring($s)
+    function longestContinuousSubstring($s)
     {
 
         $string = str_split($s);
@@ -32,5 +32,3 @@ class Solution
         return $result;
     }
 }
-
-echo Solution::longestContinuousSubstring('abcde');
