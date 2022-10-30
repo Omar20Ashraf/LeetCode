@@ -1,6 +1,6 @@
 <?php
 
-//php.test/leetCode/67_ddd_binary.php
+//php.test/leetCode/67_add_binary.php
 
 class Solution
 {
