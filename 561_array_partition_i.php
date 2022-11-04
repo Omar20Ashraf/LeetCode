@@ -9,7 +9,7 @@ class Solution
      * @param Integer[] $nums
      * @return Integer
      */
-    static function arrayPairSum($nums)
+    function arrayPairSum($nums)
     {
         sort($nums);
         $newNums = array_chunk($nums, 2);
