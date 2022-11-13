@@ -9,7 +9,7 @@ class Solution
      * @param Integer $rowIndex
      * @return Integer[][]
      */
-    static function getRow($rowIndex)
+    function getRow($rowIndex)
     {
         $result[] = [1];
 
@@ -31,7 +31,3 @@ class Solution
         return $result[$rowIndex];
     }
 }
-
-echo "<pre>";
-print_r(Solution::getRow(3));   
-echo "</pre>";
