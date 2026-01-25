@@ -4,20 +4,16 @@
 
 class Solution
 {
-
-    /**
-     * @param String $word1
-     * @param String $word2
-     * @return String
-     */
-    function mergeAlternately($word1, $word2)
+    function mergeAlternately(string $word1, string $word2): string
     {
-        $max_length = max(strlen($word1), strlen($word2));
+        $len1 = strlen($word1);
+        $len2 = strlen($word2);
+        $max  = max($len1, $len2);
 
         $result = '';
-        for($i=0; $i< $max_length; $i++){
-            $result.= isset($word1[$i]) ? $word1[$i] : '';
-            $result.= isset($word2[$i]) ? $word2[$i] : '';
+        for ($i = 0; $i < $max; $i++) {
+            if ($i < $len1) $result .= $word1[$i];
+            if ($i < $len2) $result .= $word2[$i];
         }
 
         return $result;
